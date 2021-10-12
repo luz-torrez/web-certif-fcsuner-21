@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: none;
+}
+
+header {
+  padding: 50px;
+  background-color: rgba(150, 210, 234, 40%);
+  text-align: center;
+}
+
+.headerfcs {
+  width: 1100px;
+  padding: 20px;
+}
+
+.headerbackground {
+  background-image: url(https://pngimage.net/wp-content/uploads/2018/05/blue-header-png-6.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.logofcs {
+  width: 500px;
+  padding: 30px;
+  opacity: 1;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  padding: 80px;
+  background-color: #ffffff;
+  align-items: center;
+}
+
+.titulo,
+.subtitulo,
+.pie-submit {
+  font-family: "Signika Negative", sans-serif;
+}
+
+.titulo {
+  margin: 25px;
+  text-decoration: none;
+  font-size: 2em;
+  color: #1883ba;
+}
+
+.subtitulo {
+  margin: 0px 0px 20px 0px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.pie-submit {
+  margin: 23px 0px;
+}
+
+#iemail {
+  text-decoration: none;
+  padding: 10px;
+  font-weight: 600;
+  font-size: 16px;
+  border-radius: 6px;
+  background-color: #def;
+  border: 2px solid rgb(255, 255, 255);
+}
+
+#iBuscar {
+  text-decoration: none;
+  padding: 10px;
+  font-weight: 600;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #1883ba;
+  border-radius: 6px;
+  border: 2px solid rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+  padding: 100px;
+  background-color: rgba(67, 149, 182, 0.4);
+}
